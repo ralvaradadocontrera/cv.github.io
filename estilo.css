@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: hsl(210, 80%, 66%);
+    color: #fff;
+    padding: 35px;
+     font-family: "Times New Roman", Times, serif;
+    text-align: center;
+box-shadow: 20px 5px 10px #000000da;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;          
+    margin: 20px 100px;
+}
+
+.columna {
+    width: 50%;         
+}
+
+.titulo {
+    font-weight: bold;
+    color: #013a63;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    
+    
+}
+.datos-personales {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 20px 5px 10px #000000da;
+
+}
+
+.estudios {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 20px 5px 10px #000000da;
+}
+.experiencia {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 20px 5px 10px #000000da;
+}
+
+
+h2 {
+    color: #62a8ee;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
